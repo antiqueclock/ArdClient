@@ -50,7 +50,7 @@ import haven.glsl.Uniform;
 import haven.glsl.ValBlock;
 import haven.glsl.VertexContext;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.nio.FloatBuffer;
 import java.util.Collection;
 

@@ -26,8 +26,8 @@
 
 package haven;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.GL3;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GL3;
 import java.io.PrintStream;
 import java.io.Serializable;
 import java.lang.reflect.Array;

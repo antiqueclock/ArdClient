@@ -37,7 +37,7 @@ import haven.glsl.MiscLib;
 import haven.glsl.ShaderMacro;
 import haven.glsl.Uniform;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.awt.Color;
 
 import static haven.glsl.Cons.add;

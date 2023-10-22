@@ -15,7 +15,7 @@ import haven.VertexBuf.VertexArray;
 
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 
 public class GobPathSprite extends Sprite {
     private final GLState smat;

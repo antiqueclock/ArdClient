@@ -20,7 +20,7 @@ import haven.VertexBuf.NormalArray;
 import haven.VertexBuf.VertexArray;
 import modification.configuration;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.awt.Color;
 import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;

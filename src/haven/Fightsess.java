@@ -872,7 +872,7 @@ public class Fightsess extends Widget {
             g.gl.bglSubmit(this);
         }
 
-        public void run(javax.media.opengl.GL2 gl) {
+        public void run(com.jogamp.opengl.GL2 gl) {
             wdgmsg("rel", n);
         }
     }

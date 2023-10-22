@@ -26,7 +26,7 @@
 
 package haven;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 
 public class CurrentGL {
     public final GL gl;

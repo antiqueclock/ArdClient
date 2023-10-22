@@ -23,7 +23,7 @@ import haven.Window;
 import haven.purus.pbot.PBotWindowAPI;
 import org.json.JSONArray;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 import java.awt.Color;
 import java.awt.event.KeyEvent;
 import java.io.IOException;

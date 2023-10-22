@@ -64,8 +64,8 @@ import modification.configuration;
 import modification.dev;
 import modification.resources;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.awt.Color;
 import java.awt.event.KeyEvent;
 import java.lang.ref.Reference;

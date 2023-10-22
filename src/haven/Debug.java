@@ -26,8 +26,8 @@
 
 package haven;
 
-import javax.media.opengl.GL4bc;
-import javax.media.opengl.TraceGL4bc;
+import com.jogamp.opengl.GL4bc;
+import com.jogamp.opengl.TraceGL4bc;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.File;

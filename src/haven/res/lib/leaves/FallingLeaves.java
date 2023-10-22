@@ -17,8 +17,8 @@ import haven.res.lib.env.Environ;
 import haven.res.lib.globfx.GlobEffect;
 import haven.res.lib.globfx.GlobEffector;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;
 import java.util.HashMap;

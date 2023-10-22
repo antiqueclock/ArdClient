@@ -29,7 +29,7 @@ package haven;
 import static haven.Utils.c2fa;
 import haven.glsl.Phong;
 import haven.glsl.ShaderMacro;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;

@@ -3,7 +3,7 @@ package haven;
 import haven.sloth.gob.Movable;
 import haven.sloth.gob.Type;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.util.Iterator;
 
 public class GobPath extends Sprite {

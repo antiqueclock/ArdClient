@@ -34,7 +34,7 @@ import haven.GLState.Slot;
 import haven.GOut;
 import haven.Matrix4f;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.nio.FloatBuffer;
 import java.util.List;
 

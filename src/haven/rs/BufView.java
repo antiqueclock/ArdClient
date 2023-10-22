@@ -33,7 +33,7 @@ import haven.PView;
 import haven.RenderList;
 import haven.Rendered;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 
 public class BufView {
     public final GBuffer buf;

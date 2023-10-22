@@ -30,9 +30,9 @@ import haven.glsl.BaseColor;
 import haven.glsl.Expression;
 import haven.glsl.ShaderMacro;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GL3;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GL3;
 import java.awt.Color;
 
 public abstract class States extends GLState {

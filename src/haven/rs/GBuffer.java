@@ -41,13 +41,13 @@ import haven.GOut;
 import haven.HavenPanel;
 import haven.TexE;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GLAutoDrawable;
-import javax.media.opengl.GLCapabilities;
-import javax.media.opengl.GLDrawableFactory;
-import javax.media.opengl.GLEventListener;
-import javax.media.opengl.GLProfile;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GLAutoDrawable;
+import com.jogamp.opengl.GLCapabilities;
+import com.jogamp.opengl.GLDrawableFactory;
+import com.jogamp.opengl.GLEventListener;
+import com.jogamp.opengl.GLProfile;
 import java.awt.image.BufferedImage;
 
 public class GBuffer {
@@ -93,7 +93,7 @@ public class GBuffer {
              * while a Pbuffer works; while on Xvfb with mesa-swx, an
              * OffscreenAutoDrawable works, while Pbuffer creation
              * fails. :-/ */
-            this.buf = df.createOffscreenAutoDrawable(null, caps(prof), null, 1, 1, null);
+            this.buf = df.createOffscreenAutoDrawable(null, caps(prof), null, 1, 1);
             buf.addGLEventListener(new GLEventListener() {
                 public void display(GLAutoDrawable d) {
                     GL2 gl = d.getGL().getGL2();

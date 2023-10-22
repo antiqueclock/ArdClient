@@ -37,8 +37,8 @@ import haven.glsl.Tex2D;
 import haven.glsl.Type;
 import haven.glsl.Uniform;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Map;

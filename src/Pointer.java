@@ -19,8 +19,8 @@ import haven.purus.pbot.PBotUtils;
 import haven.sloth.script.PointerData;
 import modification.configuration;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.awt.Color;
 
 import static haven.OCache.posres;

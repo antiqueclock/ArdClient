@@ -26,7 +26,7 @@
 
 package haven;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 

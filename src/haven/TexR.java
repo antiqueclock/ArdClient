@@ -28,7 +28,7 @@ package haven;
 
 import modification.configuration;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;

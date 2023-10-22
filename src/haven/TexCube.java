@@ -28,7 +28,7 @@ package haven;
 
 import haven.TexGL.TexOb;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.awt.image.BufferedImage;
 import java.nio.ByteBuffer;
 

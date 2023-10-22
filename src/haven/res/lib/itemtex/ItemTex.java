@@ -15,7 +15,7 @@ import haven.TexI;
 import haven.TexL;
 import haven.res.lib.mapres.ResourceMap;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.awt.image.BufferedImage;
 import java.util.Map;
 import java.util.Random;

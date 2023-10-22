@@ -10,7 +10,7 @@ import haven.Sprite;
 import haven.States;
 import haven.UI;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 import java.awt.Color;
 
 /**

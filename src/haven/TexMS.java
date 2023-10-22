@@ -28,7 +28,7 @@ package haven;
 
 import haven.TexGL.TexOb;
 
-import javax.media.opengl.GL3;
+import com.jogamp.opengl.GL3;
 
 import static haven.GOut.checkerr;
 

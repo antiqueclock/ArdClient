@@ -27,8 +27,8 @@
 
 package haven;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.util.Map;
 
 public abstract class PView extends Widget {

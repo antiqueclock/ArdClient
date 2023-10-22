@@ -22,7 +22,7 @@ import java.awt.Color;
 import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;
 import java.util.Objects;
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 
 public class BPRad extends Sprite {
     static final GLState smat = new States.ColState(new Color(192, 0, 0, 128));

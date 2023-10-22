@@ -37,7 +37,7 @@ import haven.glsl.Uniform;
 import haven.glsl.ValBlock;
 import haven.glsl.Variable;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 
 import static haven.glsl.Cons.add;
 import static haven.glsl.Cons.amul;

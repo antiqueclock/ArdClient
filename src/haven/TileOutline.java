@@ -2,7 +2,7 @@ package haven;
 
 import modification.configuration;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 import java.nio.BufferOverflowException;
 import java.nio.FloatBuffer;
 

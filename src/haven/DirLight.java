@@ -26,7 +26,7 @@
 
 package haven;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 import java.awt.Color;
 
 public class DirLight extends Light {

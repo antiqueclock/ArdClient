@@ -26,7 +26,7 @@
 
 package haven;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.IdentityHashMap;
@@ -96,7 +96,7 @@ public class GLProgram implements java.io.Serializable {
         }
 
         public void create(GL2 gl) {
-            id = gl.glCreateProgramObjectARB();
+            id = (int) gl.glCreateProgramObjectARB();
         }
 
         public void delete(BGL gl) {

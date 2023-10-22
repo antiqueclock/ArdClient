@@ -40,8 +40,8 @@ import haven.glsl.ShaderMacro;
 import haven.glsl.Uniform;
 import haven.glsl.VertexContext;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -22,7 +22,7 @@ import haven.glsl.Variable;
 import haven.glsl.VertexContext;
 import haven.resutil.OverTex;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.util.Random;
 
 public class CattleMat implements Material.Factory {

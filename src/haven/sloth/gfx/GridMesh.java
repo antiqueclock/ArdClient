@@ -15,7 +15,7 @@ import haven.States;
 import haven.Utils;
 import haven.VertexBuf;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.nio.FloatBuffer;

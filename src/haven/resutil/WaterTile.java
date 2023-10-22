@@ -67,7 +67,7 @@ import haven.glsl.Uniform;
 import haven.glsl.ValBlock;
 import haven.glsl.VertexContext;
 
-import javax.media.opengl.GL;
+import com.jogamp.opengl.GL;
 import java.awt.Color;
 import java.util.Random;
 

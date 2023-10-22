@@ -26,7 +26,7 @@
 
 package haven;
 
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -53,7 +53,7 @@ public abstract class GLShader implements java.io.Serializable {
         }
 
         public void create(GL2 gl) {
-            id = gl.glCreateShaderObjectARB(type);
+            id = (int) gl.glCreateShaderObjectARB(type);
             GOut.checkerr(gl);
         }
 

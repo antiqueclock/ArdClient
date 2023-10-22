@@ -26,8 +26,8 @@
 
 package haven;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.util.List;
 
 public interface Rendered extends Drawn {

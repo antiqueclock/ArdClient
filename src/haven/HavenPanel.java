@@ -26,19 +26,21 @@
 
 package haven;
 
-import com.jogamp.opengl.util.awt.Screenshot;
+import com.jogamp.opengl.util.awt.AWTGLReadBufferUtil;
 import haven.sloth.util.ObservableCollection;
 import modification.configuration;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
-import javax.media.opengl.GL3;
-import javax.media.opengl.GLAutoDrawable;
-import javax.media.opengl.GLCapabilities;
-import javax.media.opengl.GLContext;
-import javax.media.opengl.GLEventListener;
-import javax.media.opengl.GLProfile;
-import javax.media.opengl.awt.GLCanvas;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.GL3;
+import com.jogamp.opengl.GLAutoDrawable;
+import com.jogamp.opengl.GLCapabilities;
+import com.jogamp.opengl.GLContext;
+import com.jogamp.opengl.GLEventListener;
+import com.jogamp.opengl.GLProfile;
+import com.jogamp.opengl.awt.GLCanvas;
+
+import javax.imageio.ImageIO;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.GraphicsConfiguration;
@@ -133,12 +135,15 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory,
         addGLEventListener(new GLEventListener() {
             Debug.DumpGL dump = null;
 
-            public void takescreenshot(int width, int height) {
+            public void takescreenshot(GLAutoDrawable d) {
                 try {
                     String curtimestamp = new SimpleDateFormat("yyyy-MM-dd_HH.mm.ss.SSS").format(new Date());
                     File outputfile = new File(String.format("screenshots/%s.png", curtimestamp));
                     outputfile.getParentFile().mkdirs();
-                    Screenshot.writeToFile(outputfile, width, height);
+                    AWTGLReadBufferUtil glReadBufferUtil = new AWTGLReadBufferUtil(d.getGLProfile(), false);
+                    BufferedImage image = glReadBufferUtil.readPixelsToBufferedImage(d.getGL(), true);
+                    ImageIO.write(image, "png", outputfile);
+//                    Screenshot.writeToFile(outputfile, width, height);
                     ui.root.findchild(GameUI.class).msg(String.format("Screenshot has been saved as \"%s\"", outputfile.getName()), Color.WHITE);
                 } catch (Exception ex) {
                     System.out.println("Unable to take screenshot: " + ex.getMessage());
@@ -147,7 +152,7 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory,
 
             public void display(GLAutoDrawable d) {
                 if (HavenPanel.needtotakescreenshot) {
-                    takescreenshot(d.getWidth(), d.getHeight());
+                    takescreenshot(d);
                     HavenPanel.needtotakescreenshot = false;
                 }
 

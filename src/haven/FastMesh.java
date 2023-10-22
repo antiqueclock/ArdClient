@@ -28,8 +28,8 @@ package haven;
 
 import haven.glsl.ShaderMacro.Program;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.GL2;
 import java.nio.ShortBuffer;
 import java.util.ArrayList;
 import java.util.Collections;

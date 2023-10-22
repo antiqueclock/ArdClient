@@ -14,7 +14,7 @@ import haven.Rendered;
 import haven.Resource;
 import haven.Sprite;
 import haven.States;
-import javax.media.opengl.GL2;
+import com.jogamp.opengl.GL2;
 
 public class Route extends Sprite implements Rendered {
     public final long src;
