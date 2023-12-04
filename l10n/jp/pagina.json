@@ -495,8 +495,8 @@
   "paginae/wound/swollenbump": "For some reason you have a large, sore, and swollen bump on you.",
   "paginae/wound/toadwart": "Eew! The Toad Butter dried out a long time ago, but left this Nasty Wart behind. You\u0027re not sure this will ever heal.\n\nCharisma: -1",
   "paginae/wound/unfaced": "Your face has taken a good beating, but for some reason it doesn\u0027t bother you that much.",
-  "paginae/wound/waybound": "You have bound a wound with the sweet touch of Honey and Waybroad, and the relief washes over you like waves of silk.\n\nCharisma: +2\nStrength: +1",
-  "paginae/wound/waybroadtreat": "You have bound this wound in Waybroad. It is perhaps not the best treatment, but you think it might do the trick. This wound will heal slowly.\n\nCharisma: -1\nPerception: -1",
-  "paginae/wound/wretchedgore": "You dare not look at it, and if you force yourself it looks really bad. Things are displaced, there is blood, and unrecognisable tissue.",
+  "paginae/wound/waybound": "Waybroadを蜂蜜で貼り付けたらとても良い肌触りだ。甘い匂いでとてもリラックスできる.\n\nCharisma: +2\nStrength: +1",
+  "paginae/wound/waybroadtreat": "傷口にWaybroadを貼って縛っている。そのうちよくなるだろう.\n\nCharisma: -1\nPerception: -1",
+  "paginae/wound/wretchedgore": "この傷は見たくない…見るだけできもち悪くなってしまう…血が流れ、皮膚が滑り、傷口はぐちゃぐちゃでどうなってるかわからない…",
   "paginae/wound/yarr": "傷口にYarrowを塗ったらすごいヒリヒリする！あ、ちょっと気持ちいいかも. Yarr!\n\nConstitution: -2"
 }
