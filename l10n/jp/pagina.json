@@ -498,5 +498,5 @@
   "paginae/wound/waybound": "You have bound a wound with the sweet touch of Honey and Waybroad, and the relief washes over you like waves of silk.\n\nCharisma: +2\nStrength: +1",
   "paginae/wound/waybroadtreat": "You have bound this wound in Waybroad. It is perhaps not the best treatment, but you think it might do the trick. This wound will heal slowly.\n\nCharisma: -1\nPerception: -1",
   "paginae/wound/wretchedgore": "You dare not look at it, and if you force yourself it looks really bad. Things are displaced, there is blood, and unrecognisable tissue.",
-  "paginae/wound/yarr": "There\u0027s a fairly strong burning sensation here, from where you rubbed yarrow over an open wound, but it\u0027s the good, healing, kind of pain. Yarr!\n\nConstitution: -2"
+  "paginae/wound/yarr": "傷口にYarrowを塗ったらすごいヒリヒリする！あ、ちょっと気持ちいいかも. Yarr!\n\nConstitution: -2"
 }
